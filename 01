@@ -1,0 +1,75 @@
+// #include <stdio.h>
+// int main()
+// {
+//   printf("this is my first C sentence!");
+//   return 0;
+// }
+
+
+// #include <stdio.h>
+// int main()
+// {
+//   printf("%d\n",sizeof(char));
+//   printf("%d\n",sizeof(short));
+//   printf("%d\n",sizeof(int));
+//   printf("%d\n",sizeof(long));
+//   printf("%d\n",sizeof(long long));
+//   printf("%d\n",sizeof(float));
+//   printf("%d\n",sizeof(double));
+//   return 0;
+// }
+
+
+// #include <stdio.h>
+// int main()
+// {
+//   short int age = 26;    //向内存申请2个字节即16个比特位，用来存放26
+//   float weight = 75.3f;  //f表示其为单精度浮点数，否则默认为double类型
+//   printf("age:%d\nweight:%f\n",age,weight);
+//   return 0;
+// }
+
+
+// #include <stdio.h>
+// int global = 2021;  //全局变量
+// int main()
+// {
+//   int local = 2020; //局部变量
+//   int global = 2019; //局部变量
+//   printf("global:%d\n",global);
+//   return 0;
+// }
+
+
+// #include <stdio.h>
+// int main()
+// {
+//   //计算两个数的和
+//   int num1 = 0;
+//   int num2 = 0;
+//   int sum = 0;
+//   //输入数据
+//   scanf("%d%d",&num1, &num2);
+//   sum = num1+num2;
+//   printf("sum=%d",sum);
+//   return 0;
+// }
+
+// #include <stdio.h>
+// int main()
+// {
+//     {
+//       int num = 10;
+//       return 0;
+//     }
+//     printf("num=%d",num);
+// }
+
+
+// #include <stdio.h>
+// int num =10;
+// int main()
+// {
+//     printf("num=%d",num);
+//     return 0;
+// }
