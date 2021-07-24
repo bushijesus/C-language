@@ -1,0 +1,94 @@
+// #include <stdio.h>
+// #include <string.h>
+// int main()
+// {
+//   char arr1[] = "abc";
+//   char arr2[] = {'a', 'b', 'c'};
+//   printf("%s\n", arr1);
+//   printf("%s\n", arr2);
+//   printf("%d\n",strlen(arr1));
+//   printf("%d\n",strlen(arr2));
+//   return 0;
+// }
+
+
+// #include <stdio.h>
+// #include <string.h>
+// int main()
+// {
+//   printf("%d\n",strlen("c:\test\32\test.c"));
+//   //\32--32是两个八进制数字
+//   //代表32作为八进制数字代表的十进制数字所代表的ASCII码值，所对应的字符
+//   //32作为八进制对应的十进制数字为26，其作为ASCII值对应的字符为→
+//   return 0;
+// } 
+
+
+// #include <stdio.h>
+// int main()
+// {
+//   int input = 0;
+//   printf("你会坚持努力吗？（1/0）");
+//   scanf("%d",&input);
+//   if (input == 1)
+//   {
+//     printf("走向人生巅峰");
+//   }
+//   else
+//   {
+//     printf("回家种地");
+//   }
+//   return 0;
+// }
+
+
+// #include <stdio.h>
+// int main()
+// {
+//   int line = 0;
+//   printf("加油学习C语言\n");
+//   while (line < 10)
+//   {
+//     printf("keep coding!\n");
+//     line ++;
+//   }
+  
+//   return 0;
+// }
+
+
+// #include <stdio.h>
+// int Add(int x,  int y)
+// {
+//   return x + y;
+// }
+// int main()
+// {
+//   int sum = 0;
+//   int a = 10;
+//   int b = 20;
+//   sum = Add(a, b);
+//   printf("%d", sum);
+//   return 0;
+// }
+
+
+// #include <stdio.h>
+// int main()
+// {
+//   int arr[]={1, 2, 3, 4, 5, 6, 7, 8, 9};
+//   printf("%d\n",arr[7]);
+//   return 0;
+// }
+
+
+// #include <stdio.h>
+// int main()
+// {
+//   int c = 0;
+//   int a = 3;
+//   int b = 5;
+//   c = a ^ b;
+//   printf("%d",c);
+//   return 0;
+// }
