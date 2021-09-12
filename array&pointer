@@ -1,0 +1,35 @@
+#include <stdio.h>
+int main()
+{
+  // int arr[10] = {0};
+  // //数组名就是数组首元素的地址
+  // printf("%p\n", arr);
+  // printf("%p\n", &arr[0]);
+
+  // int *p = arr;
+  // int i = 0;
+  // for (i = 0; i < 10; i++)
+  // {
+  //   *(p + i) = i;
+  //   printf("%d ", *(p + i)); //输出0~9
+  // }
+
+  // int arr[10] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+  // int *p = arr;
+  // //三种表示相同
+  // //arr[2] --> *(arr+2)
+  // //p[2] --> *(p+2)
+  // printf("%d\n", arr[2]);
+  // printf("%d\n", 2 [arr]);
+  // printf("%d\n", p[2]);
+
+  // int a = 10;
+  // int *pa = &a;    //pa是一个指针变量，一级指针
+  // int **ppa = &pa; //ppa也是个指针变量，二级指针，&pa取出pa在内存中的起始地址
+  // int ***pppa = &ppa; //pppa也是个指针变量，三级指针，&ppa取出ppa在内存中的起始地址
+
+  // int arr[10];   //整型数组-存放整型的数组
+  // char ch[5];    //字符数组-存放字符的数组
+  // int *parr[10]; //整型指针数组-存放整型指针的数组
+  // char *pch[5];  //字符指针数组-存放字符型指针的数组
+}
